@@ -9,6 +9,17 @@
                 "mcp/time"
             ],
             "env": {}
-        }
+        },
+         "playwright": {
+      "command": "npx",
+      "args": ["-y", "@automatalabs/mcp-server-playwright"]
+    },
+     "duckduckgo-search": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "duckduckgo-mcp-server"
+        ]
+    }
     }
 }
